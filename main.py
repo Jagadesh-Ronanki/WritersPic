@@ -19,7 +19,8 @@ async def echo(update: Update, context):
     print(f"Content: {content}")
 
     # Generate LaTeX code
-    latex_code = generate_latex_code(heading, content)
+    user_handle = os.getenv("USER_HANDLE", "Unknown")
+    latex_code = generate_latex_code(heading, content, user_handle)
 
     # Compile LaTeX to PDF and images
     compile_latex(latex_code, heading)
@@ -43,7 +44,6 @@ def execute_main():
     TELEGRAM_TOKEN = os.getenv('TELEGRAM_BOT_TOKEN')
 
     # Create the Telegram bot application
-    print("Telegram Token", TELEGRAM_TOKEN)
     app = ApplicationBuilder().token(TELEGRAM_TOKEN).build()
 
     # Add a message handler that triggers the 'echo' function on text messages

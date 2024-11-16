@@ -5,7 +5,7 @@ import subprocess
 from datetime import datetime
 from pdf2image import convert_from_path
 
-def generate_latex_code(heading, content):
+def generate_latex_code(heading, content, user_handle):
     """
     Generate LaTeX code for the provided heading and content.
     """
@@ -58,7 +58,7 @@ def generate_latex_code(heading, content):
     \heading{""" + heading + r"""}
 
     \begin{flushleft}
-    \textcolor{customgray}{\textit{\sffamily\itshape \today \, by\, @thedankoe}}
+    \textcolor{customgray}{\textit{\sffamily\itshape \today \, by\, @""" + user_handle + r"""}}"
     \end{flushleft}
     """
 
