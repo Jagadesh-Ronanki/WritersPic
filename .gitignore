@@ -1,0 +1,14 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment directory
+venv/
+env/
+
+# System-specific files
+.DS_Store
+
+# .env file (to keep your sensitive data secure)
+.env
