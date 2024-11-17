@@ -1,6 +1,6 @@
-# pLetters - Text to Image Generator Bot
+# WritersPic - Turning Your Thoughts into Picture-Perfect Images
 
-`pLetters` is a Telegram bot that allows users to generate images from formatted text. The bot uses LaTeX to format text and convert it into images, which it then sends to the user through Telegram.
+WritersPic is a Telegram bot that turns your written ideas into beautiful, shareable images. Whether you're working on a creative project, need to share formatted content, or just want to add a personal touch to your writing, WritersPic makes it easy. Simply send your text with headings, bolded phrases, or bullet points, and the bot will generate a clean, professional-looking image you can instantly share.
 
 The bot performs the following steps:
 1. **Receive input** from the user via Telegram.
@@ -13,7 +13,7 @@ The bot performs the following steps:
 
 ## Table of Contents
 
-- [pLetters - Text to Image Generator Bot](#pletters---text-to-image-generator-bot)
+- [WritersPic - Turning Your Thoughts into Picture-Perfect Images](#WritersPic---turning-your-thoughts-into-picture-perfect-images)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Requirements](#requirements)
@@ -71,8 +71,8 @@ Follow these steps to get your bot running:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/pLetters.git
-cd pLetters
+git clone https://github.com/your-username/WritersPic.git
+cd WritersPic
 ```
 
 ### 2. Install Dependencies
