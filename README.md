@@ -1,4 +1,4 @@
-# WritersPic - Turning Your Thoughts into Picture-Perfect Images
+# WritersPic - Turning Your Writings into Picture-Perfect Images
 
 WritersPic is a Telegram bot that turns your written ideas into beautiful, shareable images. Whether you're working on a creative project, need to share formatted content, or just want to add a personal touch to your writing, WritersPic makes it easy. Simply send your text with headings, bolded phrases, or bullet points, and the bot will generate a clean, professional-looking image you can instantly share.
 
@@ -13,7 +13,7 @@ The bot performs the following steps:
 
 ## Table of Contents
 
-- [WritersPic - Turning Your Thoughts into Picture-Perfect Images](#WritersPic---turning-your-thoughts-into-picture-perfect-images)
+- [WritersPic - Turning Your Writings into Picture-Perfect Images](#WritersPic---turning-your-thoughts-into-picture-perfect-images)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Requirements](#requirements)
